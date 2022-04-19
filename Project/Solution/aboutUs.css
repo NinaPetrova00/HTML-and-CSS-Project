@@ -1,0 +1,60 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1350px;
+    background: rgba(78, 156, 182, 0.726);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(3, 107, 192);
+    font-weight: 600;
+}
+
+main {
+    background: url('../Images/backgr.jpg');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h2 {
+    color: rgb(3, 107, 192);
+    font-style: oblique;
+    padding-top: 20px;
+}
+
+h3 {
+    color: rgb(240, 0, 132);
+    padding-top: 30px;
+}
+
+.contacts {
+    border: 10px double rgb(3, 107, 192);
+    color: darkslategrey;
+    width: 50%;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.contacts h2 {
+    padding-top: 0px;
+}
+
+@media(max-width: 815px) {
+    main {
+        margin: auto;
+        padding: 20px 0px;
+        width: 95%;
+    }
+    .contacts {
+        width: 90%;
+        text-align: center;
+        margin: 5px 5px;
+    }
+}

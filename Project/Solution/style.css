@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=PT+Sans&family=PT+Serif&display=swap');
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    color: darkslategrey;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1350px;
+}
+
+
+/*navigation*/
+
+.navigation {
+    padding: 0 10px;
+    font-weight: 550;
+}
+
+.navigation p {
+    display: inline-block;
+    font-size: 25px;
+    width: 835px;
+    /*да раздалеча името от абоут....*/
+    margin-top: 0;
+}
+
+.navigation nav {
+    display: inline-block;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 10px 14px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.navigation img {
+    width: 30px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+
+/*site-header*/
+
+.site-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Images/image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px 650px 6px;
+    /*разпъва снимката ни*/
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 56px;
+    color: white;
+    width: 60%;
+    text-align: left;
+}
+
+
+/*services*/
+
+.services {
+    width: 70%;
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.services h2 {
+    font-size: 40px;
+    color: royalblue;
+}
+
+.services p {
+    color: rgb(3, 107, 192);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+/*sports*/
+
+.sports {
+    background: lightblue;
+    color: white;
+    padding: 20px 30px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.sports h2 {
+    font-size: 40px;
+    color: royalblue;
+    padding-top: 25px;
+}
+
+.sports li {
+    width: 30%;
+    padding: 60px 110px;
+    display: inline-block;
+}
+
+.sports h3 {
+    color: royalblue;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.sports p {
+    font-size: 18px;
+    color: rgb(3, 107, 192);
+    line-height: 25px;
+}
+
+.sports img {
+    width: 400px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.sports button {
+    border: 2px groove;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 12px;
+    font-size: 20px;
+    background-color: rgb(96, 177, 96);
+}
+
+.sports button:hover {
+    background-color: rgb(248, 223, 112);
+    color: rgb(252, 127, 113);
+    cursor: pointer;
+}
+
+@media(max-width: 815px) {
+    .navigation p {
+        font-size: 18px;
+    }
+    .navigation ul {
+        padding: 0;
+    }
+    .navigation li {
+        font-size: 15px;
+        display: inline-block;
+        padding: 0px 5px;
+        text-align: left;
+    }
+    .navigation img {
+        width: 15px;
+    }
+    .site-header h1 {
+        font-size: 25px;
+    }
+    .site-header {
+        background-size: 100%;
+        padding: 10px 0px 80px 6px;
+    }
+    /*servives*/
+    .services {
+        padding-top: 20px;
+        margin-left: 3%;
+    }
+    .services h2 {
+        font-size: 20px
+    }
+    .services p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    /*sports*/
+    .sports {
+        margin: 0%;
+        padding: 0;
+    }
+    .sports ul {
+        width: 0%;
+    }
+    .sports h2 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .sports li {
+        padding: 10px 20px 10px 0;
+        width: 280px;
+        margin-left: 0p
+    }
+    .sports h3 {
+        font-size: 18px;
+        width: 100px;
+        padding-left: 100px;
+    }
+    .sports p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .sports img {
+        width: 180px;
+        height: 130px;
+    }
+    .sports button {
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1366px) {
+    .site-header h1 {
+        font-size: 30px;
+        width: 25%;
+    }
+    .site-header {
+        background-size: 100%;
+        padding: 10px 50px 380px 6px;
+    }
+    /*servives*/
+    .services {
+        padding-top: 20px;
+        width: 35%;
+        margin: 5px 55px;
+    }
+    .services h2 {
+        font-size: 20px
+    }
+    .services p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    /*sports*/
+    .sports {
+        margin: 0%;
+        padding: 0;
+    }
+    .sports h2 {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-right: 450px;
+    }
+    .sports li {
+        padding: 10px 20px 10px 0;
+        width: 380px;
+        margin-left: 0px;
+    }
+    .sports h3 {
+        font-size: 18px;
+        width: 100px;
+        padding-left: 150px;
+    }
+    .sports p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .sports img {
+        width: 180px;
+        height: 130px;
+    }
+    .sports button {
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+}

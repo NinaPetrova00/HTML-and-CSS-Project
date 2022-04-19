@@ -1,0 +1,115 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1350px;
+    background: rgba(78, 156, 182, 0.726);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(3, 107, 192);
+    font-weight: 600;
+}
+
+main {
+    background: url('../Images/backgr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(3, 107, 192);
+    font-style: oblique;
+}
+
+.info li {
+    border: 7px double rgb(3, 107, 192);
+    display: inline-block;
+    color: darkslategrey;
+    width: 25%;
+    margin: 20px 50px 20px 0;
+    font-size: 18px;
+    list-style: none;
+}
+
+.container {
+    width: 360px;
+    height: 540px;
+    margin: 15px 5px;
+    border-radius: 5px;
+    position: relative;
+    background: white;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -66px;
+}
+
+#error {
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.container form {
+    width: 280px;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    transition: 1s;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border: 1px solid rgb(3, 107, 192);
+}
+
+label {
+    color: rgb(3, 107, 192);
+    font-size: 15px;
+}
+
+.btn-box {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+form button {
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: cornflowerblue;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+@media(max-width: 815px) {
+    main {
+        margin: auto;
+        padding: 20px 0px;
+        width: 95%;
+    }
+    .contacts {
+        width: 90%;
+        text-align: center;
+        margin: 5px 5px;
+    }
+    .info li {
+        margin: 12px 30px;
+        font-size: 11px;
+    }
+}
